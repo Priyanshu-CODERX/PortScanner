@@ -7,11 +7,9 @@ import socket
 import sys
 import time
 
-usage = "python 3 portScanner.py TARGET START_PORT END_PORT"
+usage = "python 3 portScanner.py TARGET_IP START_PORT END_PORT"
 
-print("-"*70)
 print("Port Scanner: Python")
-print("-"*70)
 
 if(len(sys.argv) != 4):
 	print(usage)
